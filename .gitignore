@@ -1,0 +1,28 @@
+# Rust
+/target/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local files
+*.log
+.env
+.env.*

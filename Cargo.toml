@@ -1,0 +1,13 @@
+[package]
+name = "scrollsplit"
+version = "0.1.0"
+edition = "2024"
+description = "Separate natural scrolling settings for a mouse and trackpad on macOS"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+libc = "0.2"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
